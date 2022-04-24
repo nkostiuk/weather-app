@@ -1,0 +1,147 @@
+body {
+  font-family: Roboto;
+  background: linear-gradient(
+    to top,
+    rgb(251, 194, 235) 0%,
+    rgb(166, 193, 238) 100%
+  ) !important;
+}
+
+.last-update-text {
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: none !important;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+.location-button:focus {
+  box-shadow: none !important;
+}
+
+.container {
+  max-width: 50% !important;
+  margin-top: 5%;
+}
+.h1-weather-app {
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+}
+.input-search {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading-1 {
+  font-size: 32px;
+}
+.descriptive-text {
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ul-of-one-day-forecast {
+  list-style: none;
+  padding-left: 10px;
+}
+.icon-weather-small {
+  font-size: 36px;
+  size: 30px;
+  color: #100da1;
+}
+
+.main-sunny-icon {
+  width: 130px;
+}
+
+.day-current-city-temperature {
+  font-size: 36px;
+  color: #100da1;
+}
+.night-current-city-temperature {
+  color: grey;
+  font-size: 24px;
+}
+.wind-icon {
+  width: 60px;
+}
+.heading-2 {
+  font-size: 21px;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.list-of-popular-cities {
+  list-style: none;
+  padding: 10px 15px;
+}
+.item-list-popular-cities {
+  color: #0d6efd;
+  list-style-position: outside;
+}
+
+.weather-icon {
+  height: 60px;
+  margin: 5px 0;
+}
+
+.ul-of-one-day-forecast {
+  text-align: center;
+}
+.humidity-icon {
+  width: 90px;
+}
+.wind-humidity-text {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+  /* float:left; */
+}
+#search-field {
+  font-size: 20px;
+}
+
+.weather-footer {
+  border-bottom-left-radius: 10px !important;
+  /* background: #e7eaf6 !important; */
+  background: #f1f2f8 !important;
+  /* border-top: 1px solid #fcfcfc!important; */
+  border-top: none !important;
+}
+.col-popular-cities {
+  border-left: 1px solid #e7eaf6;
+}
+
+.main-content {
+  border: 1.5px solid #a2a8d3 !important;
+  box-shadow: 8px 8px 20px #a2a8d3;
+  border-radius: 10px !important;
+}
+
+.footer-page {
+  text-align: center;
+  padding: 20px;
+  font-family: "Handlee", cursive;
+  font-size: 18px;
+}
+
+.units {
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  top: -15px;
+}
+
+.vertical-line {
+  color: #a2a8d3;
+  position: relative;
+  top: -15px;
+}
